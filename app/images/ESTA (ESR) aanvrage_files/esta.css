@@ -1,0 +1,827 @@
+/* CSS do not have OOP's inheritance. See:
+	http://dorward.me.uk/www/css/inheritance/
+   Try multiple inheritance class="inside center" ...
+*/
+
+.skip {
+	display: none;
+}
+
+body{
+	font-family: Verdana,Helvetica,sans-serif;
+	font-size: 11pt;
+	margin-top: 0px;
+}
+
+fieldset { border: 2px groove threedface; border-radius: 0.3em; position: relative; }
+
+fieldset.estaFieldSet
+{
+	border-collapse: collapse;
+	border-spacing: 0px;
+	padding: 0px;
+	border: none;
+	border-width: 0px;
+	margin: 0px;	
+}
+
+legend.estaLegend
+{
+	padding: 0px;
+	padding-left: 200px;
+	color: black;
+}
+
+a{
+	color:#006699;
+	text-decoration:underline;
+	font-weight:bold;
+
+}
+
+.hide{
+	color:white;
+	background-color:white;
+}
+img.help{
+	border:none;
+}
+img.helpfocus{
+	border:solid 20px red;
+}
+
+div.center {
+  text-align:center
+}
+
+div.background{
+	background:#FFFFFF;
+	font-size:8pt;
+	width:280px;
+	margin-left:10px;
+	margin-top:5px;
+	padding-top:2pt;
+	padding-bottom:2px;
+	padding-left:8px;
+	padding-right:8pt;
+}
+
+div.backgroundNarrow
+{
+	background:#FFFFFF;
+	font-size:8pt;
+	width:200px;
+	margin-left:10px;
+	margin-top:5px;
+	padding-top:2pt;
+	padding-bottom:2px;
+	padding-left:8px;
+	padding-right:8pt;
+}
+
+
+
+h1.pheader {
+		
+	text-align:left
+}
+
+h1 {
+	font-size:24pt;
+	color:#003366;
+}
+input.full{
+	width:100%
+}
+
+p.blue {
+	color: #003366;
+}
+
+p.dhs {
+	font-family: Verdana,Helvetica,sans-serif;
+	font-size: 12pt;
+	color:#003366;	
+}
+
+p.center {
+	text-align:center
+}
+
+p.white {
+	background-color: white;
+}
+
+p.inside {
+
+	color:#003366;
+	font-weight:bold
+}
+
+p.required {
+	font-weight:bold;
+	color:red
+	
+}
+
+p.sans {
+
+}
+
+
+p.small{
+	font-size: 8pt;
+	font-weight:bold;
+	color:#006699;
+	text-decoration:underline;
+}
+
+
+span.fieldTitle{
+	font-weight:bold;
+}
+span.fieldSubTitle{
+	font-weight:bold;
+	font-style:italic;
+}
+	
+span.bold{
+	font-weight:bold
+}
+
+span.center{
+	text-align:center
+}
+
+span.left{
+	text-align:left
+}
+
+span.red{
+	color:red
+}
+
+select.full{
+	width:100%
+}
+
+table{
+	border-width: 0;
+	border:0;
+	margin: 0;
+	padding: 0;
+	font-size: 11pt;
+	font-family: Verdana,Helvetica,sans-serif;
+}
+
+
+table.full {
+	width:800px;
+}
+
+table.content {
+	width:790px;
+	text-align:left; 
+	margin-left:2px;
+	border:0px
+}
+
+table.footer {
+	width: 100%;
+	background-color: #003466;
+	font-weight: bold;
+	color: white
+}
+
+table.light {
+	width: 100%;
+	background-color: #DDEEFF;
+ 	text-align:left; 
+ 
+}
+
+table.lightwithborder {
+	width: 100%;
+	background-color: #DDEEFF;
+ 	text-align:left; 
+	border: 1px solid grey;
+ 	
+}
+
+table.info {
+	border:solid black;
+	width:600px;
+	background-color:lightgrey;
+ 
+	
+}
+
+table.status{
+    border-spacing: 1px;
+    border-collapse: collapse;
+    border: 1px solid gray;
+    width: 850px;
+	font-family: Verdana,Helvetica,sans-serif; 
+	font-size: 9pt; 
+	text-align: center;  
+ 	align: center;
+}
+th.ths {
+    text-align: left;
+    font-weight: bold;
+    font-size: 10pt; 
+    padding: 10px;
+    border: 1px solid grey; 
+    background: #003766;
+    color: #FFFFFF;
+}
+td.odd {
+    text-align: center;
+    padding: 2px;
+    border: 2px solid #FFFFFF;
+    background: #DDEEFF;
+}
+td.even {
+    text-align: center;
+    padding: 2px;
+    border: 2px solid #FFFFFF;
+    background: #f7f7f7;
+	
+}
+
+td.left {
+    text-align: left;
+    padding: 0px;
+    
+}
+
+td.status {
+    text-align: left;
+    padding: 5px;
+    padding-left:10px;
+    border: 1px solid #FFFFFF;
+}
+
+tr.left {
+    text-align: left;
+    padding: 0px;
+    
+}
+
+
+tr.odd {
+    text-align: center;
+    padding: 2px;
+    border: 2px solid #FFFFFF;
+    background: #DDEEFF;
+}
+
+tr.even {
+    text-align: center;
+    padding: 2px;
+    border: 2px solid #FFFFFF;
+    background: #f7f7f7;
+	
+}
+
+
+table.pageheader {
+	width:790px;
+	text-align:left; 
+	margin-left:5px; 	
+ 	font-size: 10pt;
+}
+
+td{
+	padding-top:0px;
+	padding-bottom:0px;
+	
+}
+table.blueLine{
+	width:800px;
+	margin-left:0px; 	
+	margin-top:10px; 
+	background:white;
+}
+td.approvalHeader{
+	text-align:center;font-weight:bold;padding-top:10px;padding-bottom:10pt;
+}
+
+
+td.blueLine{
+	background:#003366;
+	vertical-align:top; 
+	width:600px;
+}
+td.statusHeader{
+	font-weight:bold;
+	font-size:12pt;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:15px;
+}
+
+td.dateSubTitle{
+	font-style:italic;
+	padding-left:10px;
+	padding-top:1px;
+}
+
+td.text{
+ 	font-size:10pt;
+	padding-left:5px;
+	padding-top:10px;
+ 
+}
+	
+td.fieldTitle{
+	width:250px;
+	padding-bottom:10pt;
+	padding-left:8px;
+}
+	
+td.fieldTitleGrid{
+	font-style:italic;
+	padding-bottom:1px;
+	padding-top:1px;
+	padding-left:8px;
+	vertical-align: bottom;
+}
+
+td.fieldTitleSide{
+	width:250px;
+	padding-bottom:10pt;
+	padding-left:8px;
+	padding-top:12px;
+	padding-right:5px;
+	text-align: right;
+	vertical-align: top;
+}
+
+td.fieldTitleHelp{
+	width:250px;
+	padding-bottom:0pt;
+	padding-left:8px;
+	padding-top:0px;
+	padding-right:5px;
+	text-align: right;
+	vertical-align: top;
+}
+
+.fieldData
+{
+	padding-top: 12px;
+	vertical-align: top;
+	text-align: left;
+}
+
+.fieldDataAnswer
+{
+	padding-top: 12px;
+	padding-bottom:12px;
+	text-align: left;
+	vertical-align:bottom;
+}
+
+td.pad6pt {
+	padding-bottom:6pt;
+}
+
+td.bold {
+	font-weight:bold
+}
+
+td.blue {
+	width:1px;
+	vertical-align:top;
+	background:#003366;
+}
+td.blueDivide {
+	width:0px;
+	vertical-align:top;
+	background:grey;
+}
+
+td.greenDivide {
+	width:1px;
+	vertical-align:top;
+	background:rgb(153, 204, 153);
+}
+
+td.green {
+	vertical-align:top;
+	background:#99cc99;
+	border:0
+}
+
+td.half {
+	width:399px;
+	background:#99cc99;
+}
+
+td.info {
+	padding-right: 10px;
+	padding-left: 5px;
+	padding-top: 12px;
+	padding-bottom: 0px;
+}
+
+td.vwpQuestion {
+	width:75%;
+	padding-top:20px;
+	vertical-align:top;
+	padding-left:8px;
+}
+.vwpAnswer {
+	padding-top:20px;
+	vertical-align:bottom;
+}
+td.top {
+	vertical-align:top;
+}
+
+.w05 {
+	width:5%
+}
+
+td.w10 {
+	width:10%
+}
+
+.w15 {
+	width:15%
+}
+
+td.w20 {
+	width:20%
+}
+
+td.w25 {
+	width:25%
+}
+
+td.w30 {
+	width:30%
+}
+
+.w35 {
+	width:35%
+}
+
+td.w40 {
+	width:40%
+}
+
+td.subheader {
+	font-style:italic;
+	padding-left:10px;
+}
+
+td.w50 {
+	width:50%
+}
+
+td.w60 {
+	width:60%
+}
+
+td.w65 {
+	width:65%
+}
+
+td.w75 {
+	width:75%
+}
+
+td.w85 {
+	width:85%
+}
+
+td.w5b {
+	width:5%;
+	font-weight:bold;
+	vertical-align:top
+}
+td.w5t {
+	width:5%;
+	vertical-align:top
+}
+td.w15t {
+	width:15%;
+	vertical-align:top
+}
+td.w25t {
+	width:25%;
+	vertical-align:top
+}
+td.w50t {
+	width:50%;
+	vertical-align:top
+}
+
+td.w70t {
+	width:70%;
+	vertical-align:top
+}
+
+li {
+	margin-bottom:6pt;
+}
+
+
+ul {
+	margin-top:0px;margin-bottom:0px;margin-left:25px;padding-left:25px
+}
+
+.applicationSubHead
+{
+	font-weight:bold;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:10px;
+	color:#003366
+}
+td.applicationFormLabel {
+	vertical-align:top;
+}
+td.applicationFormInput {
+	vertical-align:top;
+	padding-left:5px;
+}
+td.applicationFormIndent{
+	vertical-align:top;
+	padding-left:10px;
+}
+
+.decoratedErrorField
+{
+	border: 2px solid #780000;
+}
+
+span.decoratedErrorField
+{
+	border: 2px solid #780000;
+	padding: 2px;
+}
+
+input[type='checkbox'].decoratedErrorField
+{
+	outline: 2px solid #780000;
+}
+
+span.errorMessage {
+	color: #780000;
+	font-size:smaller;
+	text-align: left;
+}
+span.errorMessageHeader {
+	color: #780000;
+	font-size:larger;
+	font-weight: bold;
+}
+input.applicationInput{
+	width:300px;
+	margin-left:10px;
+			
+}
+input.displayInput{
+	width:300px;
+	margin-left:10px;
+	readonly:readonly;
+	border: none;
+	border-color: none;		
+}
+input.applicationInputAddress{
+	width:220px;
+	margin-left:10px;
+			
+}
+input.displayInputAddress{
+	width:220px;
+	margin-left:10px;
+	readonly:readonly; 
+	border: none;
+	border-color: none;
+			
+}
+span.applicationInput{
+	width:300px;
+	padding-left:1px;
+	
+}
+p.applicationInput{
+	width:306px;
+	margin-left:10px;
+	text-align:left;
+	padding-left:3px;
+	background-color:white;
+	border:2px inset white;
+	
+}
+input.applicationSub{
+	width:200px;
+	margin-left:10px;
+}
+input.applicationSubPhone{
+	width:180px;
+	margin-left:10px;
+}
+input.displaySubPhone{
+	width:180px;
+	margin-left:10px;
+	readonly:readonly; 
+	border: none;
+	border-color: none;
+}
+input.applicationSubPhoneCountry
+{
+	width:120px;
+	margin-left:10px;
+}
+input.displaySubPhoneCountry
+{
+	width:120px;
+	margin-left:10px;
+	readonly:readonly; 
+	border: none;
+	border-color: none;
+}
+select.applicationSubPhone{
+	width:200px;
+	margin-left:10px;
+}
+select.applicationSubPhoneType{
+	width:120px;
+	margin-left:10px;
+}
+input.displaySubPhoneType{
+	width:120px;
+	margin-left:10px;
+	readonly:readonly; 
+	border: none;
+	border-color: none;
+}
+span.applicationSub{
+	width:200px;
+	padding-left:1px;
+
+}
+p.applicationSub{
+	width:200px;
+	margin-left:10px;
+	text-align:left;
+	padding-left:3px;
+	background-color:white;
+	border:2px inset white;
+}
+
+input.display {
+	type:text;
+	font-family: Verdana,Helvetica,sans-serif;
+	font-size: 12pt;
+	readonly:readonly; 
+	border: none;
+	border-color: none;
+}
+input.applicationInputWhen{
+	width:500px;
+}
+input.displayInputWhen{
+	width:500px;
+	readonly:readonly; 
+	border: none;
+	border-color: none;
+}
+
+span.applicationInputWhen{
+	width:500px;
+	padding-left:1px;
+}
+p.applicationInputWhen{
+	width:500px;
+	background-color:white;
+	text-align:left;
+	margin-left:3px;
+	padding-left:3px;
+	border:2px inset white;
+}
+
+select.applicationDate{
+	width:60px;
+	margin-left:20px;
+}
+
+input.displayDate{
+	width:60px;
+	margin-left:20px;
+	readonly:readonly; 
+	border: none;
+	border-color: none;		
+}
+
+select.applicationDateMonth{
+	width:120px;
+	margin-left:20px;
+	font-family:Arial Unicode MS;
+}
+
+input.displayDateMonth{
+	width:120px;
+	margin-left:20px;
+	font-family:Arial Unicode MS;
+	readonly:readonly; 
+	border: none;
+	border-color: none;		
+}
+
+select.applicationDateLeft{
+	width:160px;
+	text-align:center;
+	margin-left:5px;
+}
+
+
+span.applicationDate{
+	width:60px;
+	padding-left:1px;
+}
+p.applicationDate{
+	width:60px;
+	background-color:white;
+	text-align:center;
+	border:2px inset white;
+	padding-left:1px;
+}
+
+
+input.welcomeInput{
+	width:200px;
+}
+select.dates{
+	width:100px;
+}
+select.application{
+	width:300px;
+	margin-left:10px;
+}
+select.applicationAddress{
+	width:220px;
+	margin-left:10px;
+}
+select.applicationSub{
+	width:200px;
+	margin-left:10px;
+}
+input.ro{
+	border:2px inset white;
+}
+
+.estatitle {
+	font-weight: bolder;
+	display: block;
+	unicode-bidi: embed;
+	font-size: 2em;
+	margin: .67em 0;
+	font-size:24pt;
+	color:#003366;
+}
+
+.newsnormal {
+}
+
+.newsurgent {
+	font-weight: bolder;
+}
+
+.printButton {     
+	border-bottom: 1px solid #777777;     
+	border-left: 1px solid #000000;     
+	border-right: 1px solid #333333;     
+	border-top: 1px solid #000000;
+	color: #000000;
+	display: block;     
+	height: 2.5em;     
+	padding: 0 1em;     
+	width: 5em;     
+	text-decoration: none; 
+	}  
+
+td.contactFieldTitle{
+	width:35%;
+	padding-bottom:8pt;
+	padding-left:0px;
+	padding-right:12px;
+	padding-top:8px;
+	text-align: right; 
+}	
+
+.subSection
+{
+	padding-top: 20px;
+}
+
+.obscure {
+position: absolute !important;
+clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+clip: rect(1px, 1px, 1px, 1px);
+} 
